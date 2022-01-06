@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.api.get.Get_BDD_API">
+      <class name="com.rest.api.post.POST_API">
         <methods>
-          <include name="getAPITest2"/>
+          <include name="CreatePOSTUser"/>
         </methods>
-      </class> <!-- com.rest.api.get.Get_BDD_API -->
+      </class> <!-- com.rest.api.post.POST_API -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
