@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1193" started-at="2022-01-08T14:25:04Z" finished-at="2022-01-08T14:25:06Z">
+  <suite name="Default suite" duration-ms="1360" started-at="2022-01-08T16:44:56Z" finished-at="2022-01-08T16:44:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1193" started-at="2022-01-08T14:25:04Z" finished-at="2022-01-08T14:25:06Z">
+    <test name="Default test" duration-ms="1360" started-at="2022-01-08T16:44:56Z" finished-at="2022-01-08T16:44:57Z">
       <class name="com.rest.api.get.get_nonBDD_API">
-        <test-method status="PASS" signature="get_user_nonBDD_with_HashParam()[pri:0, instance:com.rest.api.get.get_nonBDD_API@6193932a]" name="get_user_nonBDD_with_HashParam" duration-ms="1177" started-at="2022-01-08T14:25:04Z" finished-at="2022-01-08T14:25:06Z">
+        <test-method status="PASS" signature="get_user_nonBDD_with_Param()[pri:0, instance:com.rest.api.get.get_nonBDD_API@6193932a]" name="get_user_nonBDD_with_Param" duration-ms="1344" started-at="2022-01-08T16:44:56Z" finished-at="2022-01-08T16:44:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_user_nonBDD_with_HashParam -->
+        </test-method> <!-- get_user_nonBDD_with_Param -->
       </class> <!-- com.rest.api.get.get_nonBDD_API -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

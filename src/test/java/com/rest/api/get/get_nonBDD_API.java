@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
@@ -21,7 +22,8 @@ public class get_nonBDD_API {
 		RequestSpecification request = RestAssured.given();
 		request.header("Authorization", "Bearer cb5d7e66b3c6c8d780f3056c01fe509d97f2b67d37b04cc465e62e339577b7f2");
 		Response resp = request.get("public-api/users");
-		System.out.println(resp.getStatusCode());		
+		System.out.println(resp.getStatusCode());
+		
 	}
 	
 	@Test
@@ -38,6 +40,9 @@ public class get_nonBDD_API {
 		System.out.println(resp.getStatusCode());
 		System.out.println("************************");
 		System.out.println(resp.prettyPrint());
+		JsonPath pathJSON = resp.jsonPath();
+		String email = pathJSON.getString("data.email");
+		System.out.println(email);
 	}
 	
 	@Test

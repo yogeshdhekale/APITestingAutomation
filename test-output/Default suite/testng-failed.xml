@@ -5,7 +5,7 @@
     <classes>
       <class name="com.rest.api.get.get_nonBDD_API">
         <methods>
-          <include name="get_user_nonBDD"/>
+          <include name="get_user_nonBDD_with_Param"/>
         </methods>
       </class> <!-- com.rest.api.get.get_nonBDD_API -->
     </classes>
